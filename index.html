@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бесплатный генератор видеоуроков</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Генератор видеоуроков с аватаром</h1>
+        
+        <div class="input-group">
+            <input type="text" id="topic" placeholder="Введите тему урока (например: 'Квантовая физика')">
+            <button id="generate-btn">Создать видеоурок</button>
+        </div>
+
+        <div class="avatar-container">
+            <img src="avatar/avatar.png" id="avatar-img" alt="Аватар">
+            <div class="mouth" id="avatar-mouth"></div>
+        </div>
+
+        <div class="result-container">
+            <h3>Сценарий урока:</h3>
+            <div id="lesson-text"></div>
+            <button id="download-btn" disabled>Скачать видео (MP4)</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
